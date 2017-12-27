@@ -19,13 +19,13 @@ echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 |       |MobileNet v1.0|224x224x3|324|115|
 |       |ResNet18|224x224x3|807|291|
 |       |GoogleNet v1.0|224x224x3|740|261|
-|       |VGG16|224x224x3|
+|       |VGG16|224x224x3|3449|1506|
 |       |MobileNet-SSD|300x300x3|652|245|
 |Qualcomm820|SqueezeNet v1.1|227x227x3|91|47|
 |       |MobileNet v1.0|224x224x3|150|70|
 |       |ResNet18|224x224x3|356|171|
 |       |GoogleNet v1.0|224x224x3|371|161|
-|       |VGG16|224x224x3|2583|971|
+|       |VGG16|224x224x3|1956|846|
 |       |MobileNet-SSD|300x300x3|330|160|
 ## User Guide
 ### 1. Build the benchmark demo
