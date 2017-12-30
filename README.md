@@ -5,7 +5,8 @@ https://github.com/Tencent/ncnn
 |Device|System|CPU-Family|CPU-Num|Freq|
 |------|------|----------|-------|----|
 |RK3288|Android 5.1|Cortex-A17|4|1.8GHz|
-|Qualcomm820|Android 6.0|Kryo(Cortex-A72)|2+2|2.15GHz/1.6GHz|
+|Qualcomm820|Android 6.0|Kryo|2+2|2.15GHz/1.6GHz|
+|Mi5|Android 7.1.2|Kryo|2+2|1.8GHz/1.3GHz|
 ## Runtime Environment
 1.Using the cpu working in performance model.  
 ```
@@ -27,6 +28,8 @@ echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 |       |GoogleNet v1.0|224x224x3|371|161|
 |       |VGG16|224x224x3|1956|846|
 |       |MobileNet-SSD|300x300x3|330|160|
+|Mi5|SqueezeNet v1.1|227x227x3|98|51|
+|   |MobileNet v1.0|224x224x3|189|79|
 ## User Guide
 ### 1. Build the benchmark demo
 build demo for Linux-x86
