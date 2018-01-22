@@ -67,6 +67,8 @@ static int ncnn_classify(char *pParamPath, char *pBinPath, int width, int height
             max_time = temp_time;
         }
         total_time += temp_time;
+
+        printf("iter %d/%d cost: %.3f ms\n", i+1, count, temp_time);
     }
 
     
