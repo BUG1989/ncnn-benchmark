@@ -20,12 +20,14 @@ echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 |RK3288|SqueezeNet v1.1|227x227x3|194|73|
 |       |MobileNet v1.0|224x224x3|324|115|
 |       |ResNet18|224x224x3|759|250|
+|       |ResNet50|224x224x3|1855|810|
 |       |GoogleNet v1.0|224x224x3|701|231|
 |       |VGG16|224x224x3|3449|1506|
 |       |MobileNet-SSD|300x300x3|652|245|
 |Qualcomm820|SqueezeNet v1.1|227x227x3|91|47|
 |       |MobileNet v1.0|224x224x3|150|70|
 |       |ResNet18|224x224x3|355|152|
+|       |ResNet50|224x224x3|735|309|
 |       |GoogleNet v1.0|224x224x3|371|161|
 |       |VGG16|224x224x3|1928|769|
 |       |MobileNet-SSD|300x300x3|330|160|
