@@ -1,5 +1,4 @@
 /* 
- * Copyright (c) 2017,SenseNets All rights reserved. 
  *  
  * ncnn Classification Benchmark Demo  
  * 
